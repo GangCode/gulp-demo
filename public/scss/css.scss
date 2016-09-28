@@ -1,0 +1,39 @@
+.content{
+    background-color: #666;
+    h1{
+        font-weight: 600;
+        color: red;
+    }
+
+    .demo{
+        color:#000;
+        background-color: #fff;
+        border:red solid 2px;
+        border-radius: 20px;
+        font-size:10px;
+        transition: color 2s ease-in,background-color 1s,font-size 3s;
+    }
+    .demo{
+        color: red;
+        background-color: #000;
+        font-size: 40px;
+    }
+    .pic{
+        margin-top:20px;
+        div{
+            width:percentage(1/2);
+            img{
+                width: percentage(2/5);
+                height: percentage(1);
+            }
+        }
+    }
+    .pic img:hover{
+        transform: scale(2.5);
+        cursor: pointer;
+    }
+}
+aside{
+    background-color: #999;
+}
+

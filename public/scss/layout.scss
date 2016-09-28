@@ -1,0 +1,15 @@
+html,body{
+    height: percentage(1);
+    font-size: 1.5em;
+    text-align: center;
+}
+.header,.footer{
+    height: percentage(1/10);
+    background-color: #000;
+    color:#fff;
+}
+.main{
+    height: percentage(8/10);
+}
+
+

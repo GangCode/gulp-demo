@@ -1,0 +1,31 @@
+.content {
+  background-color: #666; }
+  .content h1 {
+    font-weight: 600;
+    color: red; }
+  .content .demo {
+    color: #000;
+    background-color: #fff;
+    border: red solid 2px;
+    border-radius: 20px;
+    font-size: 10px;
+    -webkit-transition: color 2s ease-in,background-color 1s,font-size 3s;
+    transition: color 2s ease-in,background-color 1s,font-size 3s; }
+  .content .demo {
+    color: red;
+    background-color: #000;
+    font-size: 40px; }
+  .content .pic {
+    margin-top: 20px; }
+    .content .pic div {
+      width: 50%; }
+      .content .pic div img {
+        width: 40%;
+        height: 100%; }
+  .content .pic img:hover {
+    -webkit-transform: scale(2.5);
+            transform: scale(2.5);
+    cursor: pointer; }
+
+aside {
+  background-color: #999; }

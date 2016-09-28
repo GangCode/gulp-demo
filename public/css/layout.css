@@ -1,0 +1,14 @@
+html, body {
+  height: 100%;
+  font-size: 1.5em;
+  text-align: center; }
+
+.header, .footer {
+  height: 10%;
+  background-color: #000;
+  color: #fff; }
+
+.main {
+  height: 80%; }
+
+/*# sourceMappingURL=layout.css.map */
