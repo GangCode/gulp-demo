@@ -25,6 +25,12 @@ gulp.task('server', function () {
         server: {
             baseDir: 'public'//服务启动基目录
         },
+        ui: {
+            port: 9090,
+            weinre: {
+                port: 9090
+            }
+        },
         port: '8080'//服务端口
     });
 });
@@ -53,9 +59,9 @@ gulp.task('sass', function () {
 gulp.task('images', function () {
     return gulp.src('public/images/**/*.+(png|jpg|jpeg|gif|svg)')
             .pipe(cache(imagemin({
-                optimizationLevel: 3,//优化等级0-7
-                progressive: true,//无损压缩jpg图片,默认：false
-                interlaced: true,//隔行扫描gif进行渲染,默认：false
+                optimizationLevel: 3, //优化等级0-7
+                progressive: true, //无损压缩jpg图片,默认：false
+                interlaced: true, //隔行扫描gif进行渲染,默认：false
                 multipass: true //多次优化svg直到完全优化,默认：false
             })))
             .pipe(gulp.dest('dist/images'));

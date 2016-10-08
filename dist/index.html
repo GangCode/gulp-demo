@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>gulp demo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="plugins/pure-min.css">
+
+        <!--指定合并css的文件名及其位置:bug【注意文件名若遇到style、common之类的名字，后面的文件不会被合并】-->
+
+        <link rel="stylesheet" href="css/main.min.css">
+    </head>
+    <body>
+
+        <header class="header">
+            page header
+        </header>
+
+        <section class="pure-g main">
+            <aside class="pure-u-2-24"></aside>
+            <div class="pure-u-20-24 content">
+                <h1>test gulp</h1>
+                <div class="demo">hello gulp!</div>
+                <div class="pure-g pic">
+                    <div class="pure-u-1-2">
+                        <img src="images/001.jpg" alt="">
+                    </div>
+                    <div class="pure-u-1-2">
+                        <img src="images/002.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <aside class="pure-u-2-24"></aside>
+        </section>
+
+        <footer class="footer">
+            page footer
+        </footer>
+
+        <!--指定合并js的文件名及其位置-->
+        <script src="js/main.min.js"></script>
+    </body>
+</html>
